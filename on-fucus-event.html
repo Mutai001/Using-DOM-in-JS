@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On-fcus</title>
+</head>
+
+<body>
+    <h2>Let us study OnFocus</h2>
+    <p>
+        On focus is a event that is triggered when the user clicks on an element. <br> The onfocus event is triggered when an element gets focus.
+    </p>
+    <label>Enter your name:</label>
+    <input type="text" onfocus="FucusFumction(this)">
+    <script>
+        function FucusFumction(x) {
+            x.value = "Enter your name";
+            x.style.background = 'paleblue';
+            x.style.color = 'green';
+            x.style.border = '4px solid #pxd';
+        }
+    </script>
+</body>
+
+</html>

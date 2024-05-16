@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <article>
+        Dom element that displays the contents of the document and displays the contents of the document itself.
+    </article>
+    <h3 onclick="changeTo(this)"> This is onclick Event</h3>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello world";
+        dcument.getElemntbyTagName("article") = "Hello JS! Let's go and play";
+
+        function changeTo(element) {
+            element.innerHTML = "You have alredy clicked me Buddy!";
+        }
+    </script>
+</body>
+
+</html>

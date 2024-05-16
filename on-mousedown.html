@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On MouseDown</title>
+</head>
+
+<body>
+    <div onmousedown="mUp(this)" onmouseup="md(this)" style=" border: 2px salmon solid; height: 500px; width: 500px; background-color: aqua;">
+        click up or down
+    </div>
+    <script>
+        function mUp(element) {
+            element.style.backgroundColor = "red";
+            element.innerHTML = "Let me know what you are doing  on your website"
+        }
+
+        function md(element) {
+            element.style.backgroundColor = "green";
+            element.innerHTML = "Thank you for creating this website"
+        }
+    </script>
+</body>
+
+</html>
